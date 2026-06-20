@@ -10,8 +10,8 @@ Knapsack cryptosystems are a direct application of the subset-sum problem: they 
 
 ## Complexity
 
-- Classical exact solution: $O(2^n)$ in the worst case for an $n$-element input set.
-- Quantum search with Grover's algorithm can reduce brute-force search to roughly $O(2^{n/2})$.
+- Classical time complexity: $O(n 2^n)$ in the worst case for an $n$-element input set.
+- Quantum search with Grover's algorithm can reduce brute-force search to roughly $O(\sqrt{n} 2^{n/2})$.
 
 ## Contents
 
